@@ -1,0 +1,13 @@
+settings:
+  max-primary: 1
+  max-secondary: 1
+
+messages:
+  prefix: "&8[&bPets&8] &r"
+  activated: "&aPet activated!"
+  deactivated: "&cPet deactivated!"
+  fusion-success: "&aFusion successful! You got a higher rarity pet."
+  fusion-failed: "&cFusion failed! All pets were lost."
+  no-permission: "&cYou don't have permission."
+  inventory-full: "&cYour inventory is full!"
+  egg-opened: "&aYou received a %rarity% %pet%!"
