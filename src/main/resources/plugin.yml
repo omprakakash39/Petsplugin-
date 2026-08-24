@@ -1,0 +1,23 @@
+name: PetsPlugin
+version: '1.0.0'
+main: me.pets.plugin.PetsPlugin
+api-version: '1.21'
+authors: [Grok]
+depend: [PlaceholderAPI]
+
+commands:
+  pets:
+    description: Open the Pets GUI
+    aliases: [pet]
+    permission: pets.use
+  petegg:
+    description: Give a Pet Egg to a player
+    permission: pets.admin
+
+permissions:
+  pets.use:
+    description: Allows opening /pets GUI and using fusion
+    default: true
+  pets.admin:
+    description: Allows taking pets/eggs from GUI and using /petegg
+    default: op
